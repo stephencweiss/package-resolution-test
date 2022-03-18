@@ -1,0 +1,15 @@
+{
+  "name": "package-resolution",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "overrides": {
+    "loose-envify": "1.2.0"
+  },
+  "resolutions": {
+    "**/loose-envify": "1.2.0"
+  }
+}
